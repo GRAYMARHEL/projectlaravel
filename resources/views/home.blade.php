@@ -55,23 +55,14 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link active" href="#footer">About Us</a>
+              <a class="nav-link active" href="#aboutus">About Us</a> 
             </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Services
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="services1">Services1</a></li>
-                <li><a class="dropdown-item" href="/services2">Services2</a></li>
-                <li><a class="dropdown-item" href="/services3">Services3</a></li>
-              </ul>
-            </li>
-          @guest
+
+            @guest
+         
                          <li class="nav-item">
-                             <a class="nav-link " href="{{ route('login') }}">Login</a>
-            
+                       <a class="nav-link " href="{{ route('login') }}">Login</a> 
                             <li class="nav-item">
                              <a class="nav-link " href="{{ route('registration') }}">Register</a>
               
@@ -81,14 +72,13 @@
                                 <a class="nav-link " href="{{ route('logout') }}">Logout</a>
                             </li>
                          @endguest
-                         </ul>
-         <div class="sea">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form> 
-          </div>
 
+           
+            
+          
+                         </ul>
+                         
+         
           
         
          
@@ -255,7 +245,7 @@
 
     <!-- footer -->
     
-<footer id="footer">
+<footer id="aboutus">
 
 <p class="text">Dota and the Dota logo are trademarks and/or registered trademarks of Valve <br> Corporation. 2023 Valve Corporation, all rights reserved.</p> <br>
   <a href="https://en.wikipedia.org/wiki/Dota_2">

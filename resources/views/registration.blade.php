@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/login.css">
 </head>
 
+
 <body>
   <div class="main">
     <p class="sign" align="center" >Register</p>
@@ -28,8 +29,8 @@
 					@endif
       <input class="pass" name="password" type="password" align="center" placeholder="Password">
       <button class="submit" align="center" type="submit">Register</button>
-      <p class="forgot" align="center"><a href="#">Forgot Password?</p>
-      <p class="forgot" align="center"><a href="login">Already Have an Account?Login</p>
+      <p class="forgot1" align="center" ><a href="login">Already Have an Account?Login</p>
+   
             
                 
     </div>
