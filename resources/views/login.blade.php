@@ -8,6 +8,7 @@
   <title>Sign in</title>
   <link rel="stylesheet" href="css/login.css">
 </head>
+  
 
 <body>
 @if($message = Session::get('success'))
@@ -33,8 +34,8 @@
 						@endif
       <input class="pass" name="password" type="password" align="center" placeholder="Password">
       <button class="submit" align="center" type="submit">Sign in</button>
-      <p class="forgot" align="center"><a href="#">Forgot Password?</p>
-      <p class="forgot" align="center"><a href="registration">Dont Have an Account?Register</p>
+      
+   <div class="gab">  <p class="forgot" align="center"><a href="registration">Register</p></div> 
             
                 
     </div>
